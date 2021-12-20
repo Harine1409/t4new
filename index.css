@@ -1,0 +1,70 @@
+*{
+background-color: rgb(250, 246, 246);
+    padding: 0px;
+    margin: 0px;
+    
+}
+body{
+    
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+.mainheading{
+   
+
+text-align: center;
+font-size: 40px;
+}
+.date{
+    text-align: center;
+    font-size: small;
+    padding-bottom: 20px;
+}
+.magazineheading{
+    text-align: center;
+    
+    color: red;
+    font-size:80px;
+    
+ }
+ 
+ .leftbox{
+float: left;
+height: 400px;
+width: 25%;
+
+margin-left: 10px;
+
+ }
+ .middlebox{
+    
+    width: 47%;
+    height: 400px;
+    font-weight: bolder;
+    text-align: center;
+    font-size:90px ;
+    margin: 0 auto;
+}
+
+.rightbox{
+    
+    float: right;
+    height: 400px;
+    width: 25%;
+    margin-right: 35px;
+}
+.middlebox{
+    font-size: 50px;
+}
+.middlebox2{
+    text-align: center;
+}
+.lastbox{
+    width: 100%;
+    display: grid;
+    margin: 10px;
+    margin-bottom: 50px;
+}
+.middlebox2{
+    justify-content: center;
+    padding-left:10px;
+}
